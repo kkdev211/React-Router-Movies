@@ -19,7 +19,7 @@ const App = () => {
       <SavedList list={savedList} />
       <div className="nav-links">
         <Link to="/">Movie List></Link>
-        <Link to="/movies"> Movie></Link>
+        {/* <Link to="/movies"> Movie></Link> */}
       </div>
       </nav>
       <Route path="/" exact component={MovieList} />

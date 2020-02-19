@@ -37,7 +37,7 @@ function MovieDetails({ movie }) {
         
     <div className="movie-card">
       <h2>{title}</h2>
-      <div>{movie.id}</div>
+     
       <div className="movie-director">
         Director: <em>{director}</em>
       </div>
